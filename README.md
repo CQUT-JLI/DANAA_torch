@@ -272,7 +272,7 @@ After generating adversarial examples, they can be evaluated on surrogate or bla
 A typical evaluation command is:
 
 ```bash
-python verify.py \
+python verify_torch.py \
     --ori_path ./dataset/images/ \
     --adv_path ./adv/DANAA_inc_v3/
 ```
